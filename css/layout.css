@@ -220,7 +220,7 @@ p.price{
     background-color: #f8cb2e;
 }
 .sig-content{
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 .sig-box{
     display: flex;
@@ -299,6 +299,9 @@ p.price{
     height: 300px;
     
 }
+.b-baner1{
+    padding-bottom: 100px;
+}
 .b-baner2{
     display: flex;
 }
@@ -351,7 +354,4 @@ p.price{
     color: #dddddd;
     font-size: 28px;
 }
-.test{
-    color: #2d4cc0;
-    font-size: 50px;
-}
+
