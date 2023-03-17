@@ -230,7 +230,6 @@ p.price{
 }
 .sig-box-wrap{
     width: 230px;
-    height: 230px;
     position: relative;
     overflow: hidden;
     border: solid 6px #780c0c;
@@ -240,6 +239,7 @@ p.price{
 .sig-box-wrap img{
     position: relative;
     width: 100%;
+    height: 100%;
 }
 .s-text-box{
     display: flex;
@@ -270,88 +270,93 @@ p.price{
     text-align: center;
 }
 /*시그니처박스*/
-
-.review-wrap{
-    background-color: #f8cb2e;
+.event-wrap{
+    /* background-color: #ffb9db; */
 }
-
-/* .re-box-wrap{
-    overflow: hidden;
-    display: flex;
-    gap: 40px;
-}
-.r-slider{
-    height: 250px;
-    width: 250px;
-}
-
-.r-slider img{
-    height: 250px;
-    width: 250px;
-    padding: 20px;
-} */
-.bottom-baner{
-    background-color: #f8cb2e;
-}
-
-.b-baner1 img{
-    width: 100%;
-    height: 300px;
-    
-}
-.b-baner1{
-    padding-bottom: 100px;
-}
-.b-baner2{
-    display: flex;
-}
-.b-baner2 img{
-    width: 100%;
-    height: 600px;
-}
-.b-baner-con1,
-.b-baner-con2,
-.b-baner-con3,
-.b-baner-con4{
-    position: relative;
-    width: 25%;
-}
-.b-baner2 a{
+.event-text{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    
-    
+    font-size: 40px;
+    padding-bottom: 30px;
 }
-.b-baner-con1 a{
-    bottom: 48px;
-    left: 60px;
-    width: 160px;
-    height: 60px;
-    color: #dddddd;
-    font-size: 30px;
+.event-container{
+    background-color: #f8cb2e;
+    display: flex;
+    justify-content: center;   
 }
-.b-baner-con2 a{
-    bottom: 0px;
+.event-box{
+    background-color: #ffb9db;
+    width: 1600px;
+    height: 100%;
+    padding: 30px 30px;
+    border: #111111 solid 8px;
+    border-radius: 26px;
+}
+
+.e-baner{
     width: 100%;
-    height: 60px;
-    color: #dddddd;
+    display: flex;
+    justify-content: center;
+}
+.e-baner1{
+    width: 100%;
+    border: #111111 solid 8px;
+    border-radius: 26px;
+    overflow:hidden;
+}
+
+.e-baner1 img{
+    width: 100%;
+    display: block;
+}
+.e-conbox{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.e-con1{
+    height: 500px;
+    border: #111111 solid 8px;
+    border-radius: 26px;
+    overflow: hidden;
+    position: relative;
+}
+.e-con1 img{
+    height: 100%;
+}
+.e-text1{
+    position: absolute;
+    bottom: 44px;
+    left: 60px;  
+}
+.e-text1 a{
     font-size: 30px;
-}
-.b-baner-con3 a{
-    bottom: 28px;
-    left: 68px;
-    width: 310px;
-    height: 60px;
-    color: #690000;
-    font-size: 28px;
-}
-.b-baner-con4 a{
-    top: 41%;
-    left: 28%;
-    height: 60px;
     color: #dddddd;
-    font-size: 28px;
 }
+.e-text2{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    left: 0px;
+    text-align: center;  
+}
+.e-text2 a{
+    font-size: 30px;
+    color: #690000;
+}
+.e-text3{
+    position: absolute;
+    width: 100%;
+    bottom: 4px;
+    left: 0px;  
+    text-align: center;
+}
+.e-text3 a{
+    font-size: 26px;
+    color: #dddddd;
+}
+
 
