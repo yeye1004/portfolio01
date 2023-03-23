@@ -420,4 +420,47 @@ p.price{
     padding: 20px 60px;
     font-size: 20px;
 }
+.foot-content{
+    padding: 50px;
+    background-color: gold;
+}
+.cs-container{
+    display: flex;
+}
+.cs-content{
+    width: 50%;
+}
+.cs-center{
+    display: flex;
+    align-items: center;
+}
+
+.cs-cont{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.cs-info{
+    display: flex;
+    align-items: center;
+}
+.foot-maintext{
+    font-size: 30px;
+    color: #003c46;
+    padding-right: 40%;
+}
+.foot-subtext{
+    font-size: 20px;
+    color: #222222;
+}
+.foot-logo{
+    display: flex;
+    justify-content: center;
+}
+.foot-logo img{
+    width: 150px;
+    height: 150px;
+}
+
+
 
