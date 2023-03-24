@@ -153,39 +153,45 @@ p.price{
     gap: 30px;
 }
 .custom-list ul li{
-    display: flex;
-    width: 10%;
-    display: inline-block;
+    padding: 10px 40px;
     border: solid 4px #5eaa66;
     border-radius: 25px;
-    
+    font-size: 26px;
+    cursor: pointer;
 }
-.custom-list ul li a{
-    display: flex;
-    font-size: 25px;
-    justify-content: center;
-    padding: 10px;
-    color: black;
+
+.custom-list > ul > li.selected{
+    background-color: #5eaa66;
+    color: #690000;
 }
 .custom-content{
     display: flex;
     justify-content: space-evenly;
 }
 .custom-box{
-    padding: 60px 0px;
+    padding: 60px 23px;
+    overflow: hidden;
 }
-.custom-box-wrap{
-    width: 250px;
-    height: 350px;
+.custom-box > ul{
+    display: flex;
+}
+.custom-box > ul >li{
+    display: flex;
+    gap: 30px;
+}
+.custom-box > ul >li > a{
+    width: 300px;
+    height: 400px;
     position: relative;
     overflow: hidden;
     border: solid 6px #780c0c;
     border-radius: 25px;
 }
-.custom-box-wrap img{
+.custom-box > ul >li > a > img{
     width: 100%;
     height: 100%;
 }
+
 /*커스텀박스*/
 
 .middle-baner{
